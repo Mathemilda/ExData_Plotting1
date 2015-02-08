@@ -16,5 +16,5 @@ par(mfcol =  c(1, 1))
 with( p1data,  plot(datetime, Global_active_power, xlab =" ", 
 	ylab="Global active power (kilowatts)", type="l", main=NULL))
 # Coping the plot picture into the png file.
-dev.copy(png, file = "plot1.png", width=480, height=480)
+dev.copy(png, file = "plot2.png", width=480, height=480)
 dev.off()
